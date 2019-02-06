@@ -1,5 +1,5 @@
 """
-Dimensionality reduction and feature selection.
+Feature Selection.
 Olivetti faces dataset consists of 10x portaits of 40 individuals. 
 Each portrait is a grayscale image with 64x64 pixels, thus the dimensionality of the problem is 4096 if each pixel is considered as a feature.
 Apply feature selection to the dataset, identifying top 25% most important features based on the chi-squared criteria (use SelectPercentile).
