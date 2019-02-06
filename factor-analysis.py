@@ -9,7 +9,7 @@ The rate is between 0 to 100. Perform factor analysis using 2 latent variables t
 1- Normalize the beer data using sklearn's 'scale' function.
 2- Perform Factor Analysis using 2 components.
 3- Observe the factor loadings, which can be accessed via the model's attribute 'components_'.
-4- Visualize the factor loadings for each latent variable using a bar chart.
+4- Visualize the factor loadings for each latent variable.
 """
 import numpy as np
 import pandas as pd
@@ -26,8 +26,8 @@ print('Observe the factor loadings:')
 print(fa.components_)
 print(fa.components_.shape)
 
-#Visualize the factor loadings for each latent variable using a bar chart.
-print('Visualize the factor loadings for each latent variable using a bar chart')
+#Visualize the factor loadings for each latent variable.
+print('Visualize the factor loadings for each latent variable:')
 fig, ax = plt.subplots()
 plt.scatter(fa.components_[0,:],fa.components_[1,:])
 plt.xlabel('Factor 1')
