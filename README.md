@@ -1,4 +1,4 @@
-These are Python codes pertaining to supervised and unsupervised machine learning methods. The input files are also in the repository.
+These are Python codes pertaining to supervised and unsupervised machine learning methods. Input files are either loaded from the internet or are within the repository.
 
 1- data-retrieval-preprocessing.py: Loads the dataset into a Pandas dataframe, imputes missing values, creates two new columns, normalizes, and adds a column with a boolean value.
 
