@@ -1,8 +1,8 @@
 """
-This code applies tSNE to the digits dataset (transforms to 2D). 
+This code applies tSNE to the digits dataset and transforms it to 2D. 
 Digits dataset has about 180 samples per class which justifies perplexity=180 in tSNE. 
 Next, it performs K-means clustering into 10 clusters in 2D feature space obtained after tSNE transformation. 
-Finally, it calculate sklearn.metrics.adjusted_rand_score between the labels obtained in clustering and the original digit labels.
+Finally, it calculates sklearn.metrics.adjusted_rand_score between the labels obtained in clustering and the original digit labels.
 """
 from sklearn.manifold import TSNE
 import sklearn.datasets
