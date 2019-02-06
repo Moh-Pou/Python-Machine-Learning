@@ -39,5 +39,5 @@ iris_data["sepal_size_normalized"]=scaler.fit_transform(iris_data[['sepal_size']
 iris_data["petal_size_normalized"]=scaler.fit_transform(iris_data[['petal_size']])
 
 #Add a boolean column
-#Is a given flower is from the setosa species?
+#Is a given flower from the setosa species?
 iris_data["is_setosa"]=iris_data["Species"]=="Iris-setosa"
