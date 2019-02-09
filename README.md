@@ -1,8 +1,8 @@
-These are Python codes pertaining to supervised and unsupervised machine learning methods. Input files are either loaded from the internet or are within the repository.
+These are nine Python codes pertaining to supervised and unsupervised machine learning methods. Input files are either loaded from the internet or are within the repository.
 
 1- data-retrieval-preprocessing.py: Loads the dataset into a Pandas dataframe, imputes missing values, creates two new columns, normalizes, and adds a column with a boolean value.
 
-2- regression.py: Loads the dataset into a Pandas dataframe, plots the data, preprocesses the data, builds a linear regression model, and builds a random forest model.
+2- regression.py: Loads the dataset into a Pandas dataframe, plots the data, preprocesses the data, builds a linear regression and a random forest model.
 
 3- cross-validation.py: Runs a linear regression with cross-validation, Lasso regression with cross-validation, and linear regression with nested cross-validation.
 
