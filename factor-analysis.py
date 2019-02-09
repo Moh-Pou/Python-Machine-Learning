@@ -1,6 +1,6 @@
 """
 Factor Analysis
-Factor analysis is useful technique for reducing dimensionality of data. 
+Factor analysis is a useful technique for reducing dimensionality of data. 
 It assumes that multiple observed variables have similar patterns of responses because they are all associated with a latent variable.
 This code solves the following problem:
 Consumers (n = 99) rate how important they consider each of seven qualities when deciding whether or not to buy a 6-pack of beer: 
